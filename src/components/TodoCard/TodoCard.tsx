@@ -84,7 +84,7 @@ useEffect(() => {
           description="This is Schoolinka Todo App File Where There's Logic To Create Todo"
           keywords={["todo", "todoapp", "todos"]}
           image="./images/ContentLogo.png"
-          url="https://"
+          url="https://schoolinka-albert-todoapp.vercel.app"
       />
       <form onSubmit={(e) => submitNewTodo(e)}>
         <div className="todo-header">

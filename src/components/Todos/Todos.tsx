@@ -46,7 +46,7 @@ const Todos: React.FC<TodoProps> = ({
           description="This is Schoolinka Todo App File Where There's Logic To Populate All Todos"
           keywords={["todo", "todoapp", "todos"]}
           image="./images/ContentLogo.png"
-          url="https://"
+          url="https://schoolinka-albert-todoapp.vercel.app"
       />
       <h3>My Task</h3>
 

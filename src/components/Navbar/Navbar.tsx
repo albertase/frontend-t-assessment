@@ -10,7 +10,7 @@ const Navbar = () => {
                 description="This is Schoolinka Todo App Navigation Bar"
                 keywords={["todo", "todoapp", "todos"]}
                 image="./images/ContentLogo.png"
-                url="https://"
+                url="https://schoolinka-albert-todoapp.vercel.app"
             />
             <div className="logo">
                 <div className="mobile-nav">

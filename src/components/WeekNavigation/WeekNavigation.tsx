@@ -10,7 +10,7 @@ const WeekNavigation = () => {
             description="This is Schoolinka Todo App File Where There's Logic To Delete Todo"
             keywords={["todo", "todoapp", "todos"]}
             image="./images/ContentLogo.png"
-            url="https://"
+            url="https://schoolinka-albert-todoapp.vercel.app"
         />
     <div className='date'>
       <h3>January 2023</h3>

@@ -25,7 +25,7 @@ const Action: React.FC<ActionProps> = ({ cardDisplaySetter }) => {
           description="This is Schoolinka Todo App Where To Create Todos"
           keywords={["todo", "todoapp", "todos", "action"]}
           image="./ContentLogo"
-          url="https://"
+          url="https://schoolinka-albert-todoapp.vercel.app"
       />
       <div className="left">
         <h1>{greeting}</h1>

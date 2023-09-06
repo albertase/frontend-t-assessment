@@ -108,7 +108,7 @@ const App: React.FC = () => {
           description="This is Schoolinka Todo App Assessment"
           keywords={["todo", "todoapp", "todos"]}
           image="../.."
-          url="https://"
+          url="https://schoolinka-albert-todoapp.vercel.app"
       />
       <Navbar />
 
