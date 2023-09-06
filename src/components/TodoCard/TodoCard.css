@@ -61,6 +61,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
 }
 
 .add-todo .button-wrapper button{
