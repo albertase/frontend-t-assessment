@@ -22,14 +22,14 @@
 .starting-time {
     padding: 8px;
     border-radius: 8px;
-    -webkit-appearance: none; /* For Safari (iOS) */
+    -webkit-appearance: none;
   appearance: none; 
 }
 
 .ending-time {
     padding: 8px;
     border-radius: 8px;
-    -webkit-appearance: none; /* For Safari (iOS) */
+    -webkit-appearance: none;
   appearance: none; 
 }
 
