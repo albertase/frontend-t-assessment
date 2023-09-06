@@ -22,15 +22,15 @@
 .starting-time {
     padding: 8px;
     border-radius: 8px;
-    appearance: textfield; 
-  -webkit-appearance: textfield; 
+    -webkit-appearance: none; /* For Safari (iOS) */
+  appearance: none; 
 }
 
 .ending-time {
     padding: 8px;
     border-radius: 8px;
-    appearance: textfield; /* Override browser-specific styles */
-  -webkit-appearance: textfield; 
+    -webkit-appearance: none; /* For Safari (iOS) */
+  appearance: none; 
 }
 
 .todo-header{
