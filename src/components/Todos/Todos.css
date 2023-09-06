@@ -1,0 +1,70 @@
+.my-todos {
+  margin-top: 24px;
+
+  margin-right: 30px;
+  margin-bottom: 24px;
+}
+.my-todos h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.my-todos h4 {
+  margin: 0;
+  margin-bottom: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 250px;
+}
+.todolists {
+  padding-bottom: 20px;
+}
+
+.todo-card {
+  height: 72px;
+  padding: 16px 24px 16px 24px;
+  border: 0px 0px 1px 0px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #eaecf0;
+}
+.my-todos p {
+  margin: 0;
+}
+.marked-class {
+  color: grey;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+.card-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.card-left .task-details {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .my-todos {
+    padding-left: 0;
+    margin-left: 16px;
+    padding-right: 0;
+    margin-right: 16px;
+  }
+  .my-todos h4 {
+    width: 150px;
+  }
+}

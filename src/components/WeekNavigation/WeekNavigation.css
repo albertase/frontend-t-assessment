@@ -1,0 +1,82 @@
+.week-navigation{
+   
+  margin-right: 30px;
+  display: flex;
+ 
+  
+  justify-content: space-between;
+  margin-top: 24px;
+  width: inherit;
+ 
+  margin-bottom: 24px;
+}
+.date h3{
+  margin-bottom: 10px;
+}
+.date{
+width: 100%;
+}
+.days-flex{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: space-between;
+  height: auto;
+}
+.day-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+ 
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+  gap: 8px;
+  border: 1px solid gray;
+}
+
+.active-daycard{
+  background-color: #3f5bf6 ;
+  color: white;
+}
+
+@media screen and (max-width: 450px) {
+  
+  .week-navigation{
+    padding-left: 0;
+    margin-left: 16px;
+    padding-right: 0;
+    margin-right: 16px;
+    margin-top: 0;
+    
+  }
+  .days-flex{
+    width: auto;
+    overflow: scroll;
+    justify-content: start;
+    gap: 10px;
+  }
+
+  .days-flex::-webkit-scrollbar {
+    width: 0px;
+    height: 3px;
+  }
+  
+  
+  .days-flex::-webkit-scrollbar-thumb {
+    background-color: #3f5bf6; 
+  }
+
+  .day-container{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+ 
+  .date h3{
+    margin-top: 0;
+  }
+  
+}

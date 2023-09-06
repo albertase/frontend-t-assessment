@@ -1,0 +1,128 @@
+.add-todo{
+    width: 394px;
+    height: 395px;
+    border-radius: 8px;
+    border: 1px solid gray/100;
+    color: rgb(5,5,5);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.344);
+  
+}
+
+.add-todo form{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    
+}
+.todo-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.todo-header h4{
+    margin: 0;
+    color: rgb(5,5,5);
+}
+.add-todo form textarea{
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    height: 140px;
+    background-color:  #EAECF0;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: none;
+}
+.add-todo form textarea:focus{
+    outline: none;
+}
+.add-todo .button-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-todo .button-wrapper button{
+    border: 1px solid gray;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(5,5,5);
+    display: flex; 
+    gap:5px;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.add-todo .notification{
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+.add-todo .notification .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.add-todo .notification img{
+    width: 18px;
+    height: 18px;
+}
+.add-todo .action-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add-todo .action-buttons button{
+   border: none;
+    cursor: pointer;
+    display: flex;
+    gap:5px;
+    align-items: center;
+    width: 167px;
+    height: 39px;
+    border-radius: 8px;
+    justify-content: center;
+  
+}
+.action-buttons .cancel{
+    border: 1px solid gray;
+}
+.cancel-image{
+    cursor: pointer;
+}
+.action-buttons  .active{
+    background-color: #3f5bf6;
+    color: white;
+    
+}
+
+
+@media screen and (max-width:450px) {
+
+    .add-todo{
+        position: fixed;
+        background-color: white;
+        
+        margin-right: 0;
+        bottom: 0;
+
+        left: 0;
+        right: 0;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        width: 100%;
+
+    }
+    .add-todo .action-buttons{
+        gap:10px;
+    }
+    
+}
